@@ -22,7 +22,7 @@ A simulation of stack based buffer overflow vulnerability
     - Update the address in eip in `exploit.py`
     - `gdb vuln`
         - Access gdb
-    - `(gdb) break 9
+    - `(gdb) break 9`
         - Add a break just before return`
     - `(gdb) run $(python2 exploit.py)`
         - Run the exploit with unknown eip
